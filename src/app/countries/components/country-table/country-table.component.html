@@ -23,7 +23,9 @@ No hay paises.
         </td>
         <td>{{country.capital}}</td>
         <td>{{country.population}}</td>
-        <td>ver mas</td>
+        <td>
+          <a [routerLink]="['/countries/by',country.cca3]">ver mas</a>
+        </td>
       </tr>
     </tbody>
   </table>

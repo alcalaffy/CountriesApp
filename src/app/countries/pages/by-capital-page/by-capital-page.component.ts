@@ -19,4 +19,5 @@ export class ByCapitalPageComponent {
     );
     console.log('desdeByCapital: ',term);
   }
+
 }
