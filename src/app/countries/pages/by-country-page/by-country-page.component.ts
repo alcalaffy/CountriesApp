@@ -23,6 +23,5 @@ export class ByCountryPageComponent implements OnInit{
         this.countries=countries;
       }
     );
-    console.log('desdeByCapital: ',term);
   }
 }
